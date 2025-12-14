@@ -33,4 +33,26 @@ export const projects: Project[] = [
     readmeUrl:
       "https://raw.githubusercontent.com/ByteLandTechnology/ink-scroll-list/main/README.md",
   },
+  {
+    id: "ink-scroll-bar",
+    name: "ink-scroll-bar",
+    description:
+      "A customizable, high-precision vertical scroll bar component for Ink CLI applications.",
+    link: "https://github.com/ByteLandTechnology/ink-scroll-bar",
+    icon: FaBoxOpen,
+    language: "TypeScript",
+    readmeUrl:
+      "https://raw.githubusercontent.com/ByteLandTechnology/ink-scroll-bar/main/README.md",
+  },
+  {
+    id: "ink-multiline-input",
+    name: "ink-multiline-input",
+    description:
+      "A robust multi-line text input component for Ink applications. 🚀",
+    link: "https://github.com/ByteLandTechnology/ink-multiline-input",
+    icon: FaBoxOpen,
+    language: "TypeScript",
+    readmeUrl:
+      "https://raw.githubusercontent.com/ByteLandTechnology/ink-multiline-input/main/README.md",
+  },
 ];
