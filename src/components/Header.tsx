@@ -34,7 +34,7 @@ export default function Header() {
       path: "/seelist",
       icon: "/assets/images/seelist-icon.svg",
       description: "Movie & show tracker",
-      status: "Coming Soon",
+      status: "Available",
     },
     {
       name: "JoyDex",

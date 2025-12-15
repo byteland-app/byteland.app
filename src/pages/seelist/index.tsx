@@ -640,13 +640,15 @@ export default function Seelist() {
               transition={{ delay: 0.4 }}
               className="flex flex-wrap gap-4 justify-center mb-12"
             >
-              <button
-                disabled
-                className="px-8 py-4 bg-gradient-to-r from-[#007AFF] to-[#34C759] text-white rounded-2xl font-bold text-lg opacity-80 cursor-not-allowed flex items-center gap-2 shadow-lg hover:shadow-xl transition-all"
+              <a
+                href="https://seelist.byteland.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-gradient-to-r from-[#007AFF] to-[#34C759] text-white rounded-2xl font-bold text-lg flex items-center gap-2 shadow-lg hover:shadow-xl hover:scale-105 transition-all"
               >
                 <FaMobileScreenButton className="w-5 h-5" />
-                Coming Soon
-              </button>
+                Open Web App
+              </a>
               <a
                 href="https://www.themoviedb.org/settings/api"
                 target="_blank"

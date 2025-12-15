@@ -147,8 +147,8 @@ export default function Home() {
                 <div className="absolute -bottom-8 left-1/3 w-32 h-32 bg-rgb-blue/20 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-[blob_10s_infinite_4s]"></div>
                 <div className="absolute top-0 right-1/4 w-32 h-32 bg-rgb-red/20 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-[blob_10s_infinite]"></div>
                 {/* Status Badge */}
-                <span className="absolute top-4 right-4 px-3 py-1 rounded-full bg-slate-500 text-white text-xs font-bold shadow-lg z-20">
-                  Coming Soon
+                <span className="absolute top-4 right-4 px-3 py-1 rounded-full bg-rgb-green text-white text-xs font-bold shadow-lg z-20">
+                  Available Now
                 </span>
                 {/* Seelist Icon */}
                 <motion.img
