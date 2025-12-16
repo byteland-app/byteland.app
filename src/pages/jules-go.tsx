@@ -15,6 +15,7 @@ import {
   FaClock,
   FaRobot,
   FaFileCode,
+  FaGlobe,
 } from "react-icons/fa6";
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 import Page from "../components/Page";
@@ -131,6 +132,22 @@ export default function JulesGo() {
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center gap-4">
+              {/* Web App Button */}
+              <a
+                href="https://jules-go.byteland.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative flex items-center justify-center gap-3 px-6 py-3 rounded-xl bg-slate-900 text-white shadow-lg hover:scale-105 transition-all duration-300 hover:shadow-blue-500/25 ring-1 ring-white/10"
+              >
+                <FaGlobe className="w-7 h-7" />
+                <div className="text-left">
+                  <div className="text-[10px] font-bold uppercase tracking-wider opacity-70">
+                    Available Now
+                  </div>
+                  <div className="text-sm font-bold">Web App</div>
+                </div>
+              </a>
+
               {/* iOS Store Button (Green -> Red) */}
               <button className="relative flex items-center justify-center gap-3 px-6 py-3 rounded-xl bg-gradient-to-r from-rgb-green to-rgb-red text-white cursor-not-allowed opacity-90 shadow-lg shadow-green-500/20 overflow-hidden">
                 <div className="absolute inset-0 bg-slate-900/40"></div>
