@@ -3,11 +3,13 @@ import Head from "next/head";
 import "../index.css";
 import { usePageTracking } from "../hooks/usePageTracking";
 import { usePageTitle } from "../hooks/usePageTitle";
+import { useClarity } from "../hooks/useClarity";
 import ScrollToTop from "../components/ScrollToTop";
 
 function MyApp({ Component, pageProps }: AppProps) {
   usePageTracking();
   usePageTitle();
+  useClarity();
 
   return (
     <>

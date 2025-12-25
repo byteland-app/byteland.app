@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@floating-ui/react": "^0.27.16",
+    "@microsoft/clarity": "^1.0.2",
     "framer-motion": "^12.23.26",
     "gray-matter": "^4.0.3",
     "mermaid": "^11.12.2",
